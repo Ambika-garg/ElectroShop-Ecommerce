@@ -1,34 +1,26 @@
 # Ecommerce made with Django
 
 ![WhatsApp Image 2022-05-13 at 10 36 24 PM](https://user-images.githubusercontent.com/70703123/168374479-0aa9e957-ccf5-4260-a93f-19a3d8c18bda.jpeg)
+![WhatsApp Image 2022-05-13 at 10 37 41 PM](https://user-images.githubusercontent.com/70703123/168374680-5908f9cc-163c-43ac-ade6-f2a7900af674.jpeg)
+
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
 ```bash
-pip install foobar
+pip install -r requirements.txt
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
 ```
 
-## Usage
+## Features
+1. Login/Signup 
+2. Search bar
+3. Add to Cart
+4. Payment Gateway
+5. Sorted Category-wise
+6. Access Control
 
-```python
-import foobar
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Contact
+ambikagarg1101@gmail.com
